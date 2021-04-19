@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100F0F"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#000000"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="INSERT YOUR DATA"
+        android:textColor="#FDFDFD"
+        android:textSize="26sp" />
+
+    <EditText
+        android:id="@+id/addname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F6F3F3"
+        android:textColorHighlight="#F6F2F2"
+        android:textColorHint="#F1EEEE"
+        android:textColorLink="#F3EFEF" />
+
+    <EditText
+        android:id="@+id/addfather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="Father Name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F6F3F3"
+        android:textColorHighlight="#F6F2F2"
+        android:textColorHint="#F1EEEE"
+        android:textColorLink="#F3EFEF" />
+
+    <EditText
+        android:id="@+id/addemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F6F3F3"
+        android:textColorHighlight="#F6F2F2"
+        android:textColorHint="#F1EEEE"
+        android:textColorLink="#F3EFEF" />
+
+    <EditText
+        android:id="@+id/addimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:hint="Image Url"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#F6F3F3"
+        android:textColorHighlight="#F6F2F2"
+        android:textColorHint="#F1EEEE"
+        android:textColorLink="#F3EFEF" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="INSERT" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Select Image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_weight="0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>
